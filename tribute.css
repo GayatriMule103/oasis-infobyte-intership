@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Decorative Circles */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    background: #6a11cb;
+    top: 50px;
+    left: -50px;
+}
+
+.circle2 {
+    width: 300px;
+    height: 300px;
+    background: #2575fc;
+    bottom: -100px;
+    right: -100px;
+}
+
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    color: #2c3e50;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Image */
+.image-section {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.image-section img {
+    width: 260px;
+    border-radius: 15px;
+    border: 5px solid #2575fc;
+    transition: transform 0.3s ease;
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+}
+
+/* Content */
+.content p {
+    margin-bottom: 18px;
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
+
+/* Quote Box */
+.quote-box {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
+}
